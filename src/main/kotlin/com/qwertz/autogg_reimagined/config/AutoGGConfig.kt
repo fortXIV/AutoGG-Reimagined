@@ -30,7 +30,7 @@ class AutoGGConfig : Config(Mod(AutoGG.NAME, ModType.UTIL_QOL, "/AutoGG.png"), A
     )
     var GG2ndDelay: Float = 1.0F
     @Text(name = "TRIGGERS (SEPERATE WITH ';')", size = OptionSize.DUAL, multiline = true)
-    var GGTriggers: String = "WINNER;Winner;Blocks Placed;Blocks Broken"
+    var GGTriggers: String = "WINNER;Winner;Blocks Placed;Blocks Broken;1st Killer -;1st Place - ;Alpha Infected;Murderer;"
     @Header(text = "AntiGG", size = OptionSize.DUAL)
     var abc2: Boolean = false
     @Switch(
